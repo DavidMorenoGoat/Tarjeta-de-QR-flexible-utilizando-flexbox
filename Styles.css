@@ -3,7 +3,7 @@ body{
       margin: 0%;
 }
 .content_fondoQR{
-    background-color: rgb(192, 227, 244);
+     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
   
@@ -11,13 +11,12 @@ body{
 /* CONTENEDOR DE QR Y TEXTO*/
 .content_BoxQR_text{
     background-color: white;
-    max-width: 50%;
-    border-radius: 10px;
+    width: 16em;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
     margin: 50px;
 }
-
 /* CONTENEDOR DE IMAGEN QR */
 .content_caja_ImagenQR{
     padding: 10px;
@@ -36,15 +35,15 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    strong{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 10px;
-        font-size: 18px;
+      
+ h2{
+        color: hsl(218, 44%, 22%);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
     }
-
-
-
+    p{
+        color: hsl(220, 15%, 55%);
+    }
 }
 /* CONTENEDOR EXTRA */
 .attribution{
