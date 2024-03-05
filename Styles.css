@@ -1,0 +1,54 @@
+/* CONTENEDOR GENERAL*/
+body{
+      margin: 0%;
+}
+.content_fondoQR{
+    background-color: rgb(192, 227, 244);
+    display: flex;
+    justify-content: center;
+  
+}
+/* CONTENEDOR DE QR Y TEXTO*/
+.content_BoxQR_text{
+    background-color: white;
+    max-width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+/* CONTENEDOR DE IMAGEN QR */
+.content_caja_ImagenQR{
+    padding: 10px;
+
+    img{
+        width: 100%;
+        border-radius: 10px;
+
+
+    }
+}
+/* CONTENEDOR DE TEXTO */
+.content_caja_TextoQR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    strong{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+
+
+}
+/* CONTENEDOR EXTRA */
+.attribution{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
